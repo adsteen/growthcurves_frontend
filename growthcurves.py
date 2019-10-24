@@ -1,6 +1,7 @@
 # Intro python script to use streamlit to deal with modeling
 # Currently copied from streamlit plotting example
 
+import streamlit as st
 import time
 import numpy as np
 
