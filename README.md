@@ -15,8 +15,7 @@ The one major exception to this start-to-finish is the concept that code element
 2. Anything that the function depends on
 3. Input parameters to that function
 
-One problem with that is that mutating the results of cached code causes problems. I'm trying to figure out how to handle that right now.
-
+One result of this is that you shouldn't modify objects that come from cached functions: this will cause problems. Instead, make a copy and modify that. 
 
 ### Notes to Drew
 
