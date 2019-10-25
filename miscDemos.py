@@ -21,7 +21,7 @@ df = pd.DataFrame({
 newDf = cp.copy(df)
 st.write(newDf)
 
-st.write("Now for my own data")
+st.write("Now for my own data. Please ignore the following big yellow box, which contains incorrect information.")
 myData = read_and_cache_csv("data/test.csv")
 myData['Col2noisy'] = myData['Col2'] + np.random.normal(size=5)
 st.write(myData)
@@ -35,4 +35,4 @@ st.pyplot()
 # st.line_chart(myData)
 
 # Button to redo the noisy data
-st.button("Rerun", key="rerunButton")
+st.button("Re-randomize", key="rerunButton")
