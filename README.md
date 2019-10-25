@@ -11,9 +11,11 @@ I'm using python 3.7.3. Streamlit runs on python 2.7.0 or python >= 3.6. An impo
 
 ## To use
 
-Enter the path of a .csv file (which must have at least 2 columns of data) as a text string into the box. If you have `git clone`ed the git repo, there will be a .csv file called `data/test.csv` - it may be important to have that there at the start.
+**Correction**: This app currently reads `data/test.csv` no matter what. I'm working to fix this.
 
-The app loads the .csv file, adds random numbers to column 1 of the data, and plots column 1 and column 1 + normal random data (mean = 0, sd = 1) to column 0. When you press 're-run', it will calculate new random data. 
+~Enter the path of a .csv file (which must have at least 2 columns of data) as a text string into the box. If you have `git clone`ed the git repo, there will be a .csv file called `data/test.csv` - it may be important to have that there at the start.~
+
+~The app loads the .csv file, adds random numbers to column 1 of the data, and plots column 1 and column 1 + normal random data (mean = 0, sd = 1) to column 0. When you press 're-run', it will calculate new random data.~
 
 ## Notes on streamlit
 
